@@ -1,0 +1,50 @@
+/*Style for the nav and footer */
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the footer paragraph */
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+/* Style for a tags when hover, changes color andbackground color */
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+/*Sets image width  */
+img {
+    width:80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Aligns h1 text to center  */
+h1 {
+    text-align: center;
+}
+
+/* Aligns the text for the p tag */
+main p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Changes width for p tags */
+p {
+    width: 100%;
+}
+
+/* Changes fontsize for a tags */
+a {
+    font-size: 1.5em
+}
+
+* {
+    /* border: 2px solid blue; */
+}
