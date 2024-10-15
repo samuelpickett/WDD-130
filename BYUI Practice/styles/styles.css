@@ -2,14 +2,20 @@
 nav, footer {
     background-color: steelblue;
     color: white;
-    padding: 10px;
     text-align: center;
+}
+
+nav{
+    padding: 15px
 }
 
 /* Style for the footer paragraph */
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
+    padding-top: 30px;
+    text-align: left;
 }
 /* Style for a tags when hover, changes color andbackground color */
 a:hover {
@@ -22,11 +28,13 @@ img {
     width:80%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue;
 }
 
 /*Aligns h1 text to center  */
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
 /* Aligns the text for the p tag */
@@ -42,9 +50,15 @@ p {
 
 /* Changes fontsize for a tags */
 a {
-    font-size: 1.5em
+    font-size: 1.5em;
+    color: white;
+    padding: 30px;
 }
 
-* {
-    /* border: 2px solid blue; */
+body{
+    margin: 0;
+}
+
+footer{
+    padding-bottom: 100%;
 }
