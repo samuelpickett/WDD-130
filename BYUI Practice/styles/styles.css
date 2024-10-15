@@ -15,7 +15,7 @@ footer p {
     margin: 20px auto;
     padding: 25px;
     padding-top: 30px;
-    text-align: left;
+    text-align: center;
 }
 /* Style for a tags when hover, changes color andbackground color */
 a:hover {
@@ -60,5 +60,5 @@ body{
 }
 
 footer{
-    padding-bottom: 100%;
+    padding-bottom: .05px;
 }
