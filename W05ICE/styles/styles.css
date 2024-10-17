@@ -19,7 +19,6 @@ footer{
 }
 footer img{
     width: 200px;
-    float: center;
     border-radius: 100%;
     border: 10px solid #444444;
     display: block;
