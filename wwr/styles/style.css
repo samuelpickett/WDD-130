@@ -7,6 +7,7 @@ nav a{
     text-align: center;
     color: #A47840FF;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -16,12 +17,20 @@ nav a:hover{
 
 header{
     background-color: #256EB2AA;
+    font-family: 'Merriweather', Arial, sans-serif;
 }
 
 body{
     background-color: #A47840;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
+h2{
+    margin: 0;
+}
 h4{
     color: #0A3C55;
 }
@@ -29,6 +38,8 @@ h4{
 footer{
     background-color: #0A3C55; 
     color: #A47840;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -50,8 +61,16 @@ footer p a:hover{
    text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 main section{
     text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
 }
 /* Styles for html ids */
 #content{
@@ -73,17 +92,27 @@ main section{
     background-color: #256EB2AA;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 /* Styles for html classes */
 .msg{
     background-color: #256EB2AA;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: #0A3C55;
+    font-family: 'Merriweather', Arial, sans-serif;
+
 }
 
 .msg p{
     color: #0A3C55;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .button-box{
@@ -92,6 +121,9 @@ main section{
 
 .home-title{
     color: #0A3C55;
+    font-family: 'Merriweather', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .logo{
@@ -100,15 +132,32 @@ main section{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .book, .join{
     background-color: #256EB200;
     color: #0A3C55;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     background-color: #0A3C55;
     color: #A47840;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+.mountains{
+    margin: 100px 0;
 }
