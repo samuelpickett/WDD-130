@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+.img{
+    width: 50%
+}
+
+.cherries{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #B9B8B9;
+}
