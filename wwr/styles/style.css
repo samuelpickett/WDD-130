@@ -1,7 +1,7 @@
 /* imports fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-
+/* Styles for home page */
 /* Styles for html elements */
 nav a{
     text-align: center;
@@ -241,6 +241,37 @@ main section img{
     grid-row: 2/3;
 }
 
+
+/* CSS for Rivers Page */
+
+.salmon_river_grid, .gray_canyon_grid, .grand_canyon_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.salmon_river_grid img, .gray_canyon_grid img, .grand_canyon_grid img{
+    width: 100%;
+}
+
+.salmon_river_content, .gray_canyon_content, .grand_canyon_content{
+    background-color: #0A3C55;
+    border-radius: 5%;
+    color: #A47840;
+    padding: 10px;
+}
+
+.gray_canyon_content, .grand_canyon_content{
+    font-size: 30px;
+}
+.heading{
+    text-align: center;
+    padding-top: 10px;
+    color: #256EB2;
+    
+}
 /* CSS for Mobile */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
